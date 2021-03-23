@@ -1,6 +1,6 @@
 <template>
     <div>
-        <h2>My awesome todolist</h2>
+        <h2>My awesome todo list</h2>
         <ul>
             <li v-bind:key="todo.id" v-for="todo in todos">
                 <Todo v-bind:todo="todo" />
